@@ -3,12 +3,10 @@ var i2c = require('i2c');
 
 module.exports = function BMP085(options) {
   var sensor = function() {};
-  options = options || {
-    address: 0x77,
-    mode: 0,
-    units: 'metric'
-  };
+  options = options || {};
   options.address = options.address || 0x77;
+  options.mode = options.modes || 0;
+  options.units = options.units || 'metric';
   var wire;
   if (!process.iotjs) {
     wire = new i2c(options.address);
