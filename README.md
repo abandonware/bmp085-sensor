@@ -58,6 +58,19 @@ sensor.calibrate(function (err, data) {
 });
 ```
 
+
+### Using alt runtime IoT.js
+
+```sh
+make runtime=iotjs
+# iotjs test.js 
+# ...
+#   "temperature": 32.3
+#   "pressure": 100855.38749926083,
+# ...
+```
+
+
 ### Resources
 
 * https://www.npmjs.com/package/bmp085-sensor
