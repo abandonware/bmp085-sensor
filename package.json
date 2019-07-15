@@ -1,5 +1,5 @@
 {
-  "name": "bmp085-sensor",
+  "name": "@abandonware/bmp085-sensor",
   "version": "0.0.5",
   "description": "A module to interface a BMP085 temperature and pressure sensor to the raspberry pi.",
   "main": "bmp085-sensor.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbridges/bmp085-sensor"
+    "url": "git+https://github.com/abandonware/bmp085-sensor"
   },
   "keywords": [
     "bmp085",
@@ -24,7 +24,7 @@
   "author": "Daniel Bridges",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dbridges/bmp085-sensor/issues"
+    "url": "https://github.com/abandonware/bmp085-sensor/issues"
   },
-  "homepage": "https://github.com/dbridges/bmp085-sensor"
+  "homepage": "https://github.com/abandonware/bmp085-sensor"
 }
