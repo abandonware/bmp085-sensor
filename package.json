@@ -5,7 +5,7 @@
   "main": "bmp085-sensor.js",
   "dependencies": {
     "@abandonware/i2c": "^0.2.4-0",
-    "async": "~0.2.9"
+    "async": "~2.6.3"
   },
   "devDependencies": {},
   "scripts": {
