@@ -4,7 +4,7 @@
   "description": "A module to interface a BMP085 temperature and pressure sensor to the raspberry pi.",
   "main": "bmp085-sensor.js",
   "dependencies": {
-    "i2c" : "*",
+    "@abandonware/i2c": "^0.2.4-0",
     "async": "~0.2.9"
   },
   "devDependencies": {},
