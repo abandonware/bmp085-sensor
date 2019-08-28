@@ -39,7 +39,7 @@ main_src ?= test.js
 NODE_PATH:=${NODE_PATH}:.
 export NODE_PATH
 
-iotjs_modules_dir?=${CURDIR}/iotjs_modules
+iotjs_modules_dir?=iotjs_modules
 
 iotjs-async_url?=https://github.com/rzr/iotjs-async
 iotjs-async_revision?=master
