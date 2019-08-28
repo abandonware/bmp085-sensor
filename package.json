@@ -1,6 +1,6 @@
 {
   "name": "@abandonware/bmp085-sensor",
-  "version": "0.0.6-0",
+  "version": "0.0.6-1",
   "description": "A module to interface a BMP085 temperature and pressure sensor to the raspberry pi.",
   "main": "bmp085-sensor.js",
   "dependencies": {
