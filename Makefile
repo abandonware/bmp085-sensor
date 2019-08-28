@@ -42,7 +42,7 @@ export NODE_PATH
 iotjs_modules_dir?=iotjs_modules
 
 iotjs-async_url?=https://github.com/rzr/iotjs-async
-iotjs-async_revision?=master
+iotjs-async_revision?=v0.0.7
 iotjs-async_dir?=${iotjs_modules_dir}/async
 iotjs_modules_dirs+=${iotjs-async_dir}
 
