@@ -1,5 +1,11 @@
 var async = require('async');
-var i2c = require('i2c');
+var i2c = null;
+
+try {
+  i2c = require('@abandonware/i2c');
+} catch(err) {
+  i2c = require('i2c');
+}
 
 module.exports = function BMP085(options) {
   var sensor = function() {};
