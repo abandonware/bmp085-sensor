@@ -9,7 +9,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "NODE_PATH=. node test"
+    "test": "NODE_PATH=. node test",
+    "start": "NODE_PATH=. node example"
   },
   "repository": {
     "type": "git",
